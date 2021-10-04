@@ -1,8 +1,8 @@
 all: arrays.o
-	gcc arrays.o
+	gcc -o arstuf arrays.o
 
 arrays.o: arrays.c
 	gcc -c arrays.c
 
 run:
-	./a.out
+	./arstuf
